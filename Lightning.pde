@@ -88,7 +88,7 @@ ellipse(8+y,30+x, 16, 60);
 //head
 fill(#FFFFFF);
 ellipse(15+y,2+x, 20, 10);
-circle(12+y,-3+x, 13);
+ellipse(12+y,-3+x, 13, 13);
 //beak
 fill(#FFA500);
 beginShape();
