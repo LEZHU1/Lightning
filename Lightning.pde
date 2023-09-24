@@ -1,7 +1,7 @@
 int startX = (int)(Math.random()*500);
 int startY = 0;
-int endX = (int)(Math.random()*300);;
-int endY = (int)(Math.random()*300);
+int endX = (int)(Math.random()*100);;
+int endY = (int)(Math.random()*100);
 
 
 void setup() {
@@ -124,8 +124,8 @@ void draw() {
   
 
   
-    endX = startX + (int)(Math.random() * 100);
-    endY = startY + (int)(Math.random() * 160);
+    endX = startX + (int)(Math.random() * 50);
+    endY = startY + (int)(Math.random() * 100);
     line(startX, startY, endX, endY);
     startX = endX;
     startY = endY;
@@ -137,8 +137,8 @@ void mousePressed() {
   // Reset the starting point when the mouse is pressed
   startX = (int)(Math.random() * 500);
   startY = 0;
-  endX = (int)(Math.random()*300);;
-  endY = (int)(Math.random()*300);
+  endX = (int)(Math.random()*100);;
+  endY = (int)(Math.random()*100);
   strokeWeight((int)(Math.random() * 8) + 2);
    fill(0,0,0,15);
  rect(0,0,510,510);
