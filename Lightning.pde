@@ -48,7 +48,7 @@ curveVertex(0+y,0+x);
 endShape();
   //ball
 fill(#FFFFFF);
-circle(40+y,68+x, 8);
+ellipse(40+y,68+x, 8, 8);
   //front arm
 beginShape();
 curveVertex(15+y,30+x);
