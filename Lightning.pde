@@ -114,9 +114,15 @@ curveVertex(0+y,70+x);
 endShape();
 //eye
 fill(#000000);
-ellipse(13, -3, 2, 4);
+ellipse(13+y, -3+x, 2, 4);
 
+  fill(#EE4B2B);
+    ellipse (200, 290, 5, 5);
+    quad(199, 280, 201, 280, 206, 260, 194, 260);
+    
 stroke(#CCFFAA);
+
+ 
 
 }
 
@@ -129,6 +135,9 @@ void draw() {
     line(startX, startY, endX, endY);
     startX = endX;
     startY = endY;
+    
+   
+  
   
   
 }
@@ -142,4 +151,5 @@ void mousePressed() {
   strokeWeight((int)(Math.random() * 8) + 2);
    fill(0,0,0,15);
  rect(0,0,510,510);
+ 
 }
